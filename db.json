@@ -1,0 +1,60 @@
+{
+  "posts": [
+    {
+      "first_name": "Wilbur",
+      "last_name": "Swindles",
+      "dob": "2004-07-17T18:58:31Z",
+      "gender": "Male",
+      "school_joining_date": "2020-02-21T09:27:25Z",
+      "useId": 1,
+      "id": 1
+    },
+    {
+      "first_name": "sumit",
+      "last_name": "bagate",
+      "dob": "2003-07-12T16:18:02Z",
+      "gender": "male",
+      "school_joining_date": "2017-05-11T06:39:32Z",
+      "useId": 2,
+      "id": 2
+    },
+    {
+      "first_name": "vaibhav",
+      "last_name": "bagate",
+      "dob": "2006-03-09T11:40:02Z",
+      "gender": "Male",
+      "school_joining_date": "2017-02-11T16:04:49Z",
+      "useId": 3,
+      "id": 3
+    },
+    {
+      "first_name": "bharat",
+      "last_name": "tatya",
+      "dob": "2006-01-09T09:29:59Z",
+      "gender": "Male",
+      "school_joining_date": "2017-05-21T14:03:11Z",
+      "useId": 4,
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "name": "aliz"
+    },
+    {
+      "body": "some comment from viewer",
+      "name": "alizaaa",
+      "id": 2
+    },
+    {
+      "body": "some comment from viewerss",
+      "name": "alizaass",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
