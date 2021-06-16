@@ -83,7 +83,25 @@ import React from 'react';
 //update Data  --->>> auto fill data in form 
 // import Update from './51API/55Update/main'
 //put method 
-import Update from './51API/PutMethod/Main'
+// import Update from './51API/PutMethod/Main'
+
+//PREVIOUS STATE
+// import PreState from './57PreviousState/main'
+//Previos Props
+// import PreProps from './58PreviosProps/main'
+
+//object handling in states
+// import ObjInState from './59ObjectHandlingInState/Main'
+
+//context API 
+// import Context from './60ContextAPI/Index'
+//example 2 
+// import Context2 from './60ContextAPI/ContextAP_Example_2/Main'
+
+//REDUX
+// import PropsInRedux from './61 REDUX/65Props/65Props';
+
+import Apps from './61 REDUX/66 folder structure/Apps.js'
 
 
 function App() {
@@ -137,9 +155,19 @@ function App() {
     {/* < GETAPI /> */}
     {/* <Delete /> */}
     {/* <Update /> */}
-    < Update />
+    {/* < Update /> */}
+    {/* <PreState /> */}
+    {/* < PreProps /> */}
+    {/* <ObjInState /> */}
+    {/* < Context /> */}
+    {/* <Context2 /> */}
+
+    {/* redux  */}
+    {/* <PropsInRedux /> */}
+    <Apps />
     </>
   )
 } 
-
+// to run server 
+// json-server --watch db.json
 export default App;
