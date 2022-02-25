@@ -9,10 +9,10 @@ function Routing() {
     return(
         <>
         <h2>this is Example of basic Routing</h2>
-        <Router>
-        <Nav />
+         <Router>
+         <Nav />
         <Route path="/about" ><About /></Route>
-        <Route path="/home"  exact={true}><Home /></Route>
+        <Route path="/home"  exact={true}><Home /></Route> 
         </Router>
         </>
     )

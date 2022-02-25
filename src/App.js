@@ -67,7 +67,7 @@ import React from 'react';
 //routing
 // import Routing from './47Routing/47BasicRouting/47Routing'
 //real Routing 
-// import RoutingReal from './47Routing/48RoutingReal/Index'
+import RoutingReal from './47Routing/48RoutingReal/Index'
 //Page not Found 404
 // import PageNotFound from './47Routing/49PageNotFound/index'
 //Dynamically Routing 
@@ -101,7 +101,7 @@ import React from 'react';
 //REDUX
 // import PropsInRedux from './61 REDUX/65Props/65Props';
 
-import Apps from './61 REDUX/66 folder structure/Apps.js'
+// import Apps from './61 REDUX/66 folder structure/Apps.js'
 
 
 function App() {
@@ -148,7 +148,7 @@ function App() {
     {/* <UncontrolledComponen /> */}
     {/* <HOC /> */}
     {/* <Routing /> */}
-    {/* <RoutingReal /> */}
+    <RoutingReal />
     {/* < PageNotFound /> */}
     {/* <DynamicRouting /> */}
     {/* <FakeAPI/> */}
@@ -164,7 +164,7 @@ function App() {
 
     {/* redux  */}
     {/* <PropsInRedux /> */}
-    <Apps />
+    {/* <Apps /> */}
     </>
   )
 } 
