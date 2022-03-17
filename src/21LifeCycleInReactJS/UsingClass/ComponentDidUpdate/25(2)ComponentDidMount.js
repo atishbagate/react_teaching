@@ -10,11 +10,9 @@ class ComponentDidUpdate2 extends React.Component{
         console.log("constructor called");
     }
     
+  
     componentDidUpdate(preProps,preState,snapshot){
         console.log("ComponentDidUpdate called");
-    }
-       
-    componentDidUpdate(preProps,preState,snapshot){
        if(preState.count === this.state.count)
        {
            alert(`count Matched and state no is = ${this.state.count} and ${preState.count} and settting to count 0`)

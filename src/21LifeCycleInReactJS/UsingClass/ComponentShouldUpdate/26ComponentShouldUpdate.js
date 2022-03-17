@@ -7,15 +7,15 @@ class ComponentShouldUpdate extends React.Component{
             counter:0
         }
     }
-    shouldComponentUpdate(){
-        console.log(`ComponentShouldUpdate executed and count value is ${this.state.counter}`);
-        return true;
-    }
+  
     shouldComponentUpdate(){
         console.log(`ComponentShouldUpdate executed and count value is ${this.state.counter}`);
         if(this.state.counter >2 && this.state.counter <5)
         {
             return true;
+        }
+        else{
+            return false;
         }
     }
     render(){

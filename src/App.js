@@ -10,11 +10,11 @@ import React from 'react';
 // import FormHandle from './17HanldinGFormData/Form'
 // import Condition from './18conditionalRendering/main'
 // import From from './19FormValidation/Form'
-// import Main from './20PassFunctionAsProps/Main'
+//import Main from './20PassFunctionAsProps/Main'
 
 // this is life cycle methods examples
 
-//using Classs component
+// using Classs component
 // import Construct from './21LifeCycleInReactJS/UsingClass/22Constructor'
 // import Parent from './21LifeCycleInReactJS/UsingClass/23Render/Parent'
 // import ComponentDidMount from './21LifeCycleInReactJS/UsingClass/24ComponentDidMount'
@@ -67,7 +67,7 @@ import React from 'react';
 //routing
 // import Routing from './47Routing/47BasicRouting/47Routing'
 //real Routing 
-import RoutingReal from './47Routing/48RoutingReal/Index'
+// import RoutingReal from './47Routing/48RoutingReal/Index'
 //Page not Found 404
 // import PageNotFound from './47Routing/49PageNotFound/index'
 //Dynamically Routing 
@@ -122,6 +122,8 @@ function App() {
     {/* <Condition/> */}
     {/* <From/> */}
     {/* <Main/> */}
+
+    
     {/* <Construct /> */}
     {/* <Parent /> */}
     {/* <ComponentDidMount /> */}
@@ -132,13 +134,20 @@ function App() {
     {/* <UseEffect /> */}
     {/* <UseEffect/> */}
     {/* <UseEffectProps /> */}
+
+    {/* css in react  */}
     {/* <UseEffectProps/> */}
     {/* <Bootstarp /> */}
+
+{/* list rendering   */}
     {/* <ArrayList />  */}
     {/* <ListInArray /> */}
     {/* <NestedList /> */}
+
     {/* <ComponentReuse/> */}
+    
     {/* <DataFromChildToParent /> */}
+
     {/* < PureComponent /> */}
     {/* <UseMemo /> */}
     {/* <Refs /> */}
@@ -148,7 +157,7 @@ function App() {
     {/* <UncontrolledComponen /> */}
     {/* <HOC /> */}
     {/* <Routing /> */}
-    <RoutingReal />
+    {/* <RoutingReal /> */}
     {/* < PageNotFound /> */}
     {/* <DynamicRouting /> */}
     {/* <FakeAPI/> */}

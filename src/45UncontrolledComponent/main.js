@@ -10,9 +10,6 @@ function UncontrolledComp() {
 
         let information = document.getElementById("info").value;
         console.log(`this is the value class and it is controlled by DOM ${information}`);
-
-        
-
     }
     return(
         <>
@@ -23,7 +20,6 @@ function UncontrolledComp() {
             <span>class : </span><input type="text" id="info"/><br /><br />
             <button>Submit</button>
         </form>
-        
         </>
     )
 }

@@ -24,7 +24,6 @@ function PostApi(){
             <textarea value={text} onChange={(e)=>{setText(e.target.value)}} name="text" id="text" cols="50" rows="8" minLength="12" maxLength="30">enter your comments</textarea><br /> <br />
             <input  onChange={(e)=>{setName(e.target.name)}} name="name" type="name"/><br />
             <button onClick={SendData} type="button">post</button>
-
         </form>
         </>
     )

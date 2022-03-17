@@ -62,7 +62,6 @@ function  ListInArray() {
                                 )
                             }
                         </tbody>
-
                         </Table>
                     </td>
                    </tr>

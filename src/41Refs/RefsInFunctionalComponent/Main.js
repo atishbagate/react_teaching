@@ -12,7 +12,6 @@ function FunRef() {
         <input type="text" ref={inRef}/>
         <button onClick={inputHandler}>Click for changes</button>
         </>
-
     )
 }
 export default FunRef;

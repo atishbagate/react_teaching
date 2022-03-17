@@ -15,6 +15,7 @@ function  HideShow() {
         }
         <button onClick={()=>setShow(true)}>Show</button>
         <button onClick={()=>setShow(false)}>Hide</button>
+     
         {
             hover ? <h2>mouse is hovered</h2> : null
         }

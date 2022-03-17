@@ -25,7 +25,6 @@ function FormHandle() {
             <input type="checkbox"  onChange={(e)=>setTnc(e.target.checked)}/>
             <span>Accept T&C</span><br /><br />
             <button type="submit">submit info</button>
-
             </form>
         </div>
 

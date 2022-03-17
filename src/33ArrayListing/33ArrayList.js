@@ -36,9 +36,6 @@ function  ArrayList() {
 
                         )
                     }
-                    
-                  
-                    
                 </Table>  
         </>
     )

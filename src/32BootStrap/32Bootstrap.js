@@ -3,16 +3,10 @@
 import React,{useState} from 'react';
 import { Button} from 'react-bootstrap';
 import { Card  } from 'react-bootstrap';
-
-
-
-
 function  Bootstarp() {
 
     const [show,setShow] = useState(false)
-
- 
-
+    
     return(
         <>
         <div className="Show">

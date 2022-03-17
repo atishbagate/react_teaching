@@ -1,14 +1,15 @@
 
 import React from 'react';
 // import {useState} from 'react'
-// import HideShow from './HideShow';
+import HideShow from './HideShow';
  import Toggle from './Toggle'
 function  HideShowToggle() {
 
     return(
         <>
         <h1>this is hide and show and Toggle tutorial</h1>
-        {/* <HideShow/> */}
+        <HideShow/>
+        <br />
         <Toggle/>
         </>
     )

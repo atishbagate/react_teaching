@@ -16,7 +16,7 @@ class ComponentDidMount extends React.Component{
         console.log("render called");
         return(
             <>
-            <h1>this is Constructor=={this.state.data}</h1>
+            <h1>this is Constructor== {this.state.data}</h1>
             </>
         )
     }

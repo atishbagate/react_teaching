@@ -10,7 +10,6 @@ function ChildOp(props) {
         <h4>this is Child component</h4>
         <h3>current value is {props.val}</h3>
         <h3>Previos value is {PreviosProps}</h3>
-
         </>
     )
 }

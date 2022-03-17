@@ -5,8 +5,7 @@ function API() {
     const [data,setData] = useState([])
    useEffect(()=>{
     fetch("http://localhost:3000/posts").then((result)=>{result.json().then((res)=>{
-       
-        setData(res)
+               setData(res)
     })
 })
    },[])
