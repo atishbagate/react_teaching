@@ -6,7 +6,6 @@ function Students() {
     return(
         <>
         <Student name="atish" email="atish@gmail.com"/>
-        
         </>
     )
 }

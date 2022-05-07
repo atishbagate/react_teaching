@@ -62,7 +62,7 @@ import React from 'react';
 // import UncontrolledComponen from './45UncontrolledComponent/main'
 
 //HOC
-// import HOC from './46HOC/main'
+import HOC from './46HOC/main'
 
 //routing
 // import Routing from './47Routing/47BasicRouting/47Routing'
@@ -103,6 +103,10 @@ import React from 'react';
 
 // import Apps from './61 REDUX/66 folder structure/Apps.js'
 
+//hooks practice.
+// import UseRefHook from './67Hooks/UseRefHook'
+
+// import Form from './From'
 
 function App() {
  
@@ -111,6 +115,7 @@ function App() {
   return(
     <>
     <h1>This is Main App.js Page</h1>
+    {/* <Form /> */}
     {/* <Click/> */}
     {/* <State /> */}
     {/* <State /> */}
@@ -155,7 +160,7 @@ function App() {
     {/* < ForwardRef /> */}
     {/* <ControlledComp /> */}
     {/* <UncontrolledComponen /> */}
-    {/* <HOC /> */}
+    <HOC />
     {/* <Routing /> */}
     {/* <RoutingReal /> */}
     {/* < PageNotFound /> */}
@@ -174,6 +179,10 @@ function App() {
     {/* redux  */}
     {/* <PropsInRedux /> */}
     {/* <Apps /> */}
+
+    {/* hooks practice  */}
+    {/* <UseRefHook /> */}
+
     </>
   )
 } 

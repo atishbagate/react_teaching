@@ -13,7 +13,6 @@ function Main() {
         <h2>this is example of sending Function as a props</h2>
         <Childs func = {send}/>
         <Sum func = {sum}/>
-
         </>
     )
 }

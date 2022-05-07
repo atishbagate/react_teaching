@@ -4,9 +4,10 @@ function HOC() {
     return (
         <>
         <h1>this is the Example of HOC</h1>
-        <HOCred cmp={Counter}/>
-        <HOCgreen cmp={Counter} />
-
+        <div style={{display:'flex'}}>
+        <HOCred cmp={Counter}/>  
+        <HOCgreen cmp={Counter} />  
+        </div>
         </>
     )
 }
